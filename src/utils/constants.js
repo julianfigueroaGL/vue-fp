@@ -1,3 +1,20 @@
+export const optionsToSortBy = [
+	{ text: 'ORIGINAL' },
+	{ text: 'PNODENAME' },
+	{ text: 'TRADETYPE' },
+	{ text: 'BOOKNAME' }
+];
+
+export const dataGridColumns = [
+	{ headerName: 'Node', field: 'PNODENAME' },
+	{ headerName: 'Trade Type', field: 'TRADETYPE' },
+	{ headerName: 'Book name', field: 'BOOKNAME' },
+	{ headerName: 'Iso', field: 'ISO' },
+	{ headerName: 'Bid Type', field: 'BID_OR_MW' },
+	{ headerName: 'Notes', field: 'NOTES' },
+	{ headerName: 'Active', field: 'ACTIVE' }
+];
+
 export const gridData = [
 	{
 		PORTFOLIOID: 10512493,
