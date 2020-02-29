@@ -17,12 +17,12 @@ export default {
 		this.columnDefs = dataGridColumns;
 	},
 	watch: {
-		currentItem(option) {
+		currentItem(column) {
 			const unsortedData = gridData;
-			if (option !== 'ORIGINAL') {
-				const sortByStatus = sortDataByColumn(option);
+			if (column !== 'ORIGINAL') {
+				const sortByStatus = sortDataByColumn(column);
 				this.rowData = sortByStatus(gridData);
-			} else if (option == 'ORIGINAL') {
+			} else if (column == 'ORIGINAL') {
 				this.rowData = unsortedData;
 			}
 		}

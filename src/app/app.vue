@@ -8,6 +8,11 @@
 			<v-container>
 				<v-row>
 					<v-col cols="12">
+						<chart />
+					</v-col>
+				</v-row>
+				<v-row>
+					<v-col cols="12">
 						<grid />
 					</v-col>
 				</v-row>
