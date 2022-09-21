@@ -14,7 +14,7 @@
     "vue": "^2.6.11",
     "vue-plotly": "^1.1.0",
     "vue-property-decorator": "^8.4.0",
-    "vuetify": "^2.2.11"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
